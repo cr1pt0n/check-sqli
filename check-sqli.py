@@ -21,7 +21,7 @@ try:
     RED = '\033[1;31m'
 
 except IndexError:
-    print 'check_vulnsql: v1.0\nUsage: python %s <sites.txt>\n' % sys.argv[0]
+    print 'check_vulnsql: v1.0\n\nUsage: python %s <sites.txt>\nExample: testphp.vulnweb.com/listproducts.php?cat=1' % sys.argv[0]
     sys.exit()
 
 with open(sites) as web_sites:
